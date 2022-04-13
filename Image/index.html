@@ -44,7 +44,7 @@
 <section>
   <div class="center">
     <div>
-      <img src="img1.jpg" alt="bigimg">
+      <img src="img1.jpg" id="bigimg">
     </div>
     <ul>
       <li><img src="thumb-img1.jpg" class="thumb" data-image="img1.jpg"></li>
@@ -65,9 +65,11 @@
   'use strict';
 
   const thumbs = document.querySelectorAll('.thumb');
+  // console.log(thumbs);
   thumbs.forEach(function(item, index) {
     item.onclick = function () {
-      console.log(this.dataset.image);
+      // console.log(this.dataset.image);
+      document.getElementById('bigimg').src = this.dataset.image;
     }
   });
 </script>
