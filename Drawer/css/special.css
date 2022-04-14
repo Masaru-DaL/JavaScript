@@ -1,4 +1,4 @@
-@charset "UTF-8";
+＃@charset "UTF-8";
 
 /* style.cssの上書き */
 .container {
@@ -9,6 +9,20 @@ img {
 }
 
 /* 機能実装に必要なCSS */
+
+/* ドロワーナビゲーションの必須スタイル */
+#nav {
+  position: fixed;
+  right: -270px;
+  top: 0;
+  width: 270px;
+  height: 100%;
+}
+
+/* ドロワーが開かれた時のスタイル */
+.show {
+  transform: translate3d(-270px, 0, 0);
+}
 
 /* ヘッダーにボタンを配置 */
 .header {
@@ -54,6 +68,7 @@ header .container {
   margin-bottom: 20px;
 }
 
+/* メインコンテンツの装飾 */
 main .container {
   padding: 0;
 }
