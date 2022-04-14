@@ -9,9 +9,11 @@
 <link href="../ShareData/css/style.css" rel="stylesheet">
 <link href="images/favicon.ico" rel="shortcut icon">
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<!-- <link href="css/style.css" rel="stylesheet"> -->
 
 <style>
+@charset "UTF-8";
+
 .list {
   overflow: hidden;
   margin: 0;
@@ -79,9 +81,23 @@
 <p>JavaScript Samples</p>
 </div><!-- /.container -->
 </footer>
+<script src="../ShareData/scripts/jquery-3.4.1.min.js"></script>
 <script>
 'use strict';
 
+$(document).ready(function () {
+  // ファイルの読み込み
+  $.ajax({url: 'data.json', dataType: 'json'})
+  .done(function(data) {
+    // console.log(data);
+    data.forEach(function(item, index) {
+      console.log(item);
+      });
+    });
+  .fail(function() {
+    window.alert('読み込みエラー');
+  });
+});
 </script>
 </body>
 </html>
