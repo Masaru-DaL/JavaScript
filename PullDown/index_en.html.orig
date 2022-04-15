@@ -1,0 +1,65 @@
+<!doctype html>
+<<<<<<< HEAD
+<html>
+=======
+<html lang="en">
+>>>>>>> master
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>テンプレート</title>
+<<<<<<< HEAD
+<link href="images/favicon.ico" rel="shortcut icon">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="panel.css" href="stylesheet">
+=======
+<link href="../../images/favicon.ico" rel="shortcut icon">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+<link href="../../css/style.css" rel="stylesheet">
+>>>>>>> master
+</head>
+<body>
+<header>
+<div class="container">
+<h1>タイトル</h1>
+<h2>サブタイトル</h2>
+</div><!-- /.container -->
+</header>
+<main>
+<div class="container">
+<section>
+<<<<<<< HEAD
+
+=======
+  <section>
+    <form id="form">
+      <select name="select">
+        <option value="index.html">日本語</option>
+        <option value="index_en.html">English</option>
+        <option value="index_zh.html">中文</option>
+      </select>
+    </form>
+    <h2>英語のページ</h2>
+  </section>
+>>>>>>> master
+</section>
+</div><!-- /.container -->
+</main>
+<footer>
+<div class="container">
+<p>JavaScript Samples</p>
+</div><!-- /.container -->
+</footer>
+<<<<<<< HEAD
+
+<div id="privacy-panel">
+  <p>当サイトではユーザーエクスペリエンス向上のためクッキーを使用しています。また、匿名でアクセス状況のデータを収集しています。詳しい情報は当サイトのプライバシーポリシーをご覧ください。</p>
+  <button id="agreebtn">承認する</button>
+</div>
+=======
+<script src="script.js">
+</script>
+>>>>>>> master
+</body>
+</html>
